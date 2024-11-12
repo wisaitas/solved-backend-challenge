@@ -16,7 +16,7 @@ import (
 func main() {
 	// findMaxPath() // can run go test ./...
 	// catchMe() // can run go test ./...
-	// pireFireDire() // import proto then call http://localhost:50051/beef/summary
+	// pireFireDire() // can run go test ./... || if dry run import proto then call http://localhost:50051/beef/summary
 }
 
 func findMaxPath() {
