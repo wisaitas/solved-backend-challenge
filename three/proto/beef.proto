@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package beef;
+option go_package = "three/proto/beef";
+
+service BeefCounter {
+    rpc CountBeef (BeefRequest) returns (BeefResponse) {}
+}
+
+message BeefRequest {
+    string text = 1;
+}
+
+message BeefResponse {
+    map<string, int32> beef_count = 1;
+} 
